@@ -1,0 +1,222 @@
+
+#container {
+    
+    width: 1400px;
+    height: 1100px;
+    border: none; /* Incorect: trebuie să fie "none" sau să specifici o valoare de bordură */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+#brand {
+    float: left;
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#searchbox {
+    border-radius: 10px;
+    float: right;
+    background: linear-gradient(#e5f2bb, #B7E952);
+    width: 300px;
+    height: 45px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.text {
+    border-radius: 10px;
+    float: left;
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(200, 0, 255);
+    background: white url(icons8-search-64.png) right center no-repeat;
+}
+
+.submit {
+    border-radius: 10px;
+    float: right;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu {
+    height: 70px;
+    background: linear-gradient(rgb(255, 255, 0), rgb(183, 183, 0));
+    padding: 7px 0;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: blueviolet;
+    line-height: 30px;
+    font-size: large;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+
+#Introduction {
+    background: linear-gradient(#e5f2bb, #B7E952);
+    padding: 30px;
+    margin: 20px 5px;
+    border-radius: 10px;
+}
+
+#Introduction h3 {
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#Introduction p {
+    font-size: 25px;
+    color: #789450;
+    text-align: justify;
+}
+
+.sidebar {
+    height: 500px;
+    width: 450px;
+    border: 5px solid #baf46f;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.sidebar h3 {
+    color: purple;
+    font-size: 30px;
+}
+
+.rightbar h3 {
+    color: purple;
+    font-size: 30px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(166, 0, 192);
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    text-decoration: none;
+    color: purple;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.leftsidebar {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(166, 0, 192);
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#rightsidebar {
+    float: right;
+    height: 500px;
+    width: 450px;
+    border: 5px solid #baf46f;
+    border-radius: 20px;
+    padding: 20px;
+    top: -570px;
+    position: relative;
+    margin: 10px;
+}
+
+.rightbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(166, 0, 192);
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.rightbar ul li a:hover,
+.rightbar ul li a.active {
+    text-decoration: none;
+    color: purple;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    padding-top: 8px;
+}
+
+#leftsidebar ul li {
+    padding-bottom: 10px;
+    list-style-image: url(icons8-right-arrow-48.png);
+    padding-left: 10px;
+}
+
+#rightsidebar ul li {
+    padding-bottom: 20px;
+    list-style-image: url(icons8-tick-64.png);
+    padding-left: 10px;
+}
+
